@@ -11,7 +11,7 @@ def mute(token,id):
     print(f"{nombre} servers was muted")
 
 def main():
-    a = input("Y/n Do you want to change all notif in only everyone/here\n\n >").lower()
+    a = input("Y/n Do you want to change all notif in only at ping\n\n >").lower()
     if a == "y":
         try:
             token = input("Your discord token\n\n >")
